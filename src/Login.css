@@ -1,0 +1,26 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container>img {
+    height: 200px;
+    object-fit: contain;
+}
+
+Button {
+    color: black !important;
+    border-color: black !important;
+    border-width: 1.5px !important;
+}
+
+Button:hover {
+    background-color: gold !important;
+}
